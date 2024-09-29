@@ -78,6 +78,8 @@ h2{
 
 h3{
     color:#17abb3;
+    font-size: 1.5em;
+    margin-bottom: 0px;
 }
 
 .etoile
@@ -106,4 +108,29 @@ th, td {
 .etoile{
     color: #17abb3;
     font-size: 1.2em;
+    text-align: right;
+
+}
+
+.langue{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    margin-right: 50px;
+
+}
+
+.textealignedroite{
+    text-align: right;
+}
+
+.html{
+display: grid;
+grid-template-columns: 50% 50%;
+grid-template-rows: 25% 25% 25% 25%;
+margin-right: 50px;
+}
+
+hr{
+    margin-right: 50px;
 }
