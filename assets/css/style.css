@@ -1,0 +1,109 @@
+body{
+    background-color: white;
+}
+
+/* header, main, footer{
+    max-width: 1160px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+} */
+
+header{
+    background-color: #17abb3;
+    max-width: 1160px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+main{
+    background-color: white;
+    max-width: 1160px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+}
+footer{
+    background-color: #17abb3;
+    display: flex;
+    justify-content: center;
+    max-width: 1160px;
+    margin: auto;
+}
+
+
+.navigation
+{
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+  }
+
+
+.carre{
+    list-style-type:square;
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+.competences{
+     background-color: blueviolet;
+     width: 30%;
+     padding-left: 50px;
+}
+
+
+
+.profil{
+    background-color: rgb(19, 44, 185);
+    width: 70%;
+    padding-left: 50px;
+}
+
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    
+}
+
+
+
+
+h3{
+    color:#17abb3;
+}
+
+.etoile
+{
+    color:#17abb3;
+    font-size: 1.2em;
+}
+
+
+th, td {
+    /* border: 1px solid black; */
+    padding: 0px;
+}
+
+.texteagauche{
+    height: 40px;
+}
+
+.texteadroite{
+    text-align: right;
+    height: 40px;
+    padding-right: 0px;
+    width: 130px;
+}
+
+.etoile{
+    color: #17abb3;
+    font-size: 1.2em;
+}
