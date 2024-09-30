@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 body{
     background-color: white;
     margin: auto;
 }
-
-
 
 header{
     max-width: 1160px;
@@ -15,51 +16,43 @@ header{
 }
 
 img{
-   
 
 }
+
 #photomaton{
     border-radius: 50%;
     border: 5px solid #e3e3e3;
 }
 
-
-
 .photo{
     width: 30%;
     background-color: #17abb3;
     display: grid;
-    justify-content:center;
-    padding-top: 20px;
+    justify-content: center;
+    align-content: space-around;
+    justify-items: center;
     padding-left: 40px;
     padding-right: 40px;
-
 }
 
-
+.photo img:hover {
+    transform: scale(1.1);
+}
 
 .nomprenom{
     width: 70%;
     background-color: #17abb3;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25% ;
+    justify-content: center;
+    align-content: space-around;
+    grid-template-columns: 40% 10% 7% 43% ;
     grid-template-rows: 25% 25% 25% 25%;
     margin-right: 0px;
     padding-left: 20px;
     padding-right: 20px;
-
+    padding-bottom: 30px;
 
 } 
-/* .navigation{
-    background-color: black;
-    list-style-type:none;
-    padding: 0;
-    margin: 0; 
-    display: grid;
-    grid-template-columns: 50% 50% ;
-    grid-template-rows: 50% 50% ;
-} */
-
 
 #email{
     background-color: #17abb3;
@@ -67,40 +60,59 @@ img{
     grid-row: 3  ;
     padding-top: 5px;
     height: 20px;
-
+    padding-left: 0px;
 }
+
 #imgmail{
     background-color: #17abb3;
     grid-column : 1 ;
     grid-row: 3  ;
     padding-top: 5px;
     height: 20px;
-
+    padding-left: 90%;
 }
 
 #adresse{
+    padding-top: 5px;
+
+}
+
+#imgadresse{
     grid-column : 3  ;
     grid-row: 3  ;
     padding-top: 5px;
     height: 20px;
-
-
+    padding-left: 50%;
 }
+
 #telephone{
     grid-column : 2  ;
     grid-row: 4 ;
     height: 20px;
-
+    padding-left: 0px;
 }
 
+#imgtelephone{
+    padding-left: 90%;
+}
+
+
 #permis{
+    grid-column : 4  ;
+    grid-row: 4 ;
+}
+
+#imgpermis{
     grid-column : 3  ;
     grid-row: 4  ;
     height: 20px;
-
+    padding-left: 50%;
 }
 
-
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
 
 h1{
     font-size: 3em;
@@ -111,6 +123,7 @@ h1{
     margin-bottom: 0px;
     text-align: center;
 }
+
 h2{
 
     color:#e3e3e3;
@@ -119,11 +132,7 @@ h2{
     margin-top: 0px;
     margin-bottom: 0px;
     text-align: center;
-
 }
-
-
-
 
 main{
     background-color: white;
@@ -132,41 +141,21 @@ main{
     justify-content: center;
     margin-right: auto;
     margin-left: auto;
-    
 }
-footer{
-    background-color: #17abb3;
-    display: flex;
-    justify-content: center;
-    max-width: 1160px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 20px;
-}
-
-
-
-
 
 .carre{
     list-style-type:square;
     padding: 0;
     margin: 0;
     color: #17abb3;
-
-  }
-
-
+}
 
 .competences{
     background-color: #e3e3e3;
-     width: 30%;
-     padding-left: 40px;
-     padding-right: 40px;
-
+    width: 30%;
+    padding-left: 40px;
+    padding-right: 40px;
 }
-
-
 
 .profil{
     background-color:#ffffff;
@@ -175,15 +164,6 @@ footer{
     padding-right: 20px;
 
 }
-
-
-
-
-/* #17abb3;
-#333333;
-#e3e3e3;
-#f5f5f5
-#ffffff */
 
 h3{
     color:#17abb3;
@@ -197,19 +177,15 @@ h4{
     margin-top: 25px;
 }
 
-
-
 p{
     margin-top: 0;
 }
-
 
 .etoile
 {
     color:#17abb3;
     font-size: 1.2em;
 }
-
 
 th, td {
     /* border: 1px solid black; */
@@ -231,7 +207,6 @@ th, td {
     color: #17abb3;
     font-size: 1.2em;
     text-align: right;
-
 }
 
 .langue{
@@ -239,7 +214,6 @@ th, td {
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
     margin-right: 50px;
-
 }
 
 .textealignedroite{
@@ -259,7 +233,6 @@ hr{
 }
 li{
     margin-left: 15px;
-    
 }
 
 .texteennoir{
@@ -270,7 +243,7 @@ li{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-    }
+}
 
 .annee{
     margin-top: 25px;
@@ -287,3 +260,48 @@ li{
     text-align :justify;
     padding-right: 50px;
 }
+
+/* FOOTER */
+footer{
+    background-color: #17abb3;
+    display: grid;
+    justify-content: center;
+    align-content: space-around;
+    justify-items: center;
+    max-width: 1160px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.footergrille{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 40% 60% ;
+    height: 60px;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.textemaj{
+    color: #ffffff;
+}
+
+#in{
+    width: 30px; 
+    grid-column : 1 ;
+    grid-row: 1 ;
+}
+
+#github{
+    width: 30px; 
+    grid-column : 3 ;
+    grid-row: 1 ;
+}
+
+#insta{
+    width: 30px; 
+    grid-column : 5 ;
+    grid-row: 1 ;
+}
+
